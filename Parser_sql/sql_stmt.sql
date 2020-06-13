@@ -1,5 +1,2 @@
-SELECT name, surname FROM users WHERE id=1;
+SELECT firstName, lastName FROM employee WHERE id=2;
 
-SELECT * FROM users WHERE id<3;
-
-SELECT id FROM users WHERE name='vanya';
