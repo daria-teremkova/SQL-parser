@@ -1,4 +1,4 @@
-# Generated from C:/Users/1/Downloads/Sql_parser_zip/Parser_sql\sql.g4 by ANTLR 4.8
+# Generated from C:/Users/1/SQL-parser/Parser_sql\sql.g4 by ANTLR 4.8
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .sqlParser import sqlParser
@@ -86,6 +86,15 @@ class sqlListener(ParseTreeListener):
 
     # Exit a parse tree produced by sqlParser#simp_select_statement.
     def exitSimp_select_statement(self, ctx:sqlParser.Simp_select_statementContext):
+        pass
+
+
+    # Enter a parse tree produced by sqlParser#delete_statement.
+    def enterDelete_statement(self, ctx:sqlParser.Delete_statementContext):
+        pass
+
+    # Exit a parse tree produced by sqlParser#delete_statement.
+    def exitDelete_statement(self, ctx:sqlParser.Delete_statementContext):
         pass
 
 
@@ -221,6 +230,15 @@ class sqlListener(ParseTreeListener):
 
     # Exit a parse tree produced by sqlParser#update_stmt_limited.
     def exitUpdate_stmt_limited(self, ctx:sqlParser.Update_stmt_limitedContext):
+        pass
+
+
+    # Enter a parse tree produced by sqlParser#delete_stmt.
+    def enterDelete_stmt(self, ctx:sqlParser.Delete_stmtContext):
+        pass
+
+    # Exit a parse tree produced by sqlParser#delete_stmt.
+    def exitDelete_stmt(self, ctx:sqlParser.Delete_stmtContext):
         pass
 
 

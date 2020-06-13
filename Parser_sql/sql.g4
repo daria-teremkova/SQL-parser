@@ -23,6 +23,7 @@ statement_node
     | update_stmt_limited   #update_statement
     | insert_stmt           #insert_statement
     | simp_select_stmt      #simp_select_statement
+    | delete_stmt           #delete_statement
   ;
 
 reindex_stmt
@@ -161,6 +162,11 @@ update_stmt_limited
    )?
  ;
 
+delete_stmt
+ : K_DELETE K_FROM qualified_table_name
+   ( K_WHERE expr)
+ ;
+
 insert_stmt
  : with_clause? ( K_INSERT
                 | K_REPLACE
@@ -170,7 +176,7 @@ insert_stmt
                 | K_INSERT K_OR K_FAIL
                 | K_INSERT K_OR K_IGNORE ) K_INTO
    ( database_name '.' )? table_name ( '(' column_name ( ',' column_name )* ')' )?
-   ( K_VALUES '(' expr ( ',' expr )* ')' ( ',' '(' expr ( ',' expr )* ')' )*
+   ( K_VALUES '(' expr1 ( ',' expr1 )* ')' ( ',' '(' expr1 ( ',' expr1 )* ')' )*
    | select_stmt
    | K_DEFAULT K_VALUES
    )

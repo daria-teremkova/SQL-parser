@@ -6,7 +6,7 @@
         <PerGrammarGenerationSettings>
           <option name="fileName" value="$PROJECT_DIR$/sql.g4" />
           <option name="autoGen" value="true" />
-          <option name="outputDir" value="" />
+          <option name="outputDir" value="C:\Users\1\SQL-parser\Parser_sql\sql_parser" />
           <option name="libDir" value="" />
           <option name="encoding" value="" />
           <option name="pkg" value="" />

@@ -1,4 +1,4 @@
-# Generated from C:/Users/1/Downloads/Sql_parser_zip/Parser_sql\sql.g4 by ANTLR 4.8
+# Generated from C:/Users/1/SQL-parser/Parser_sql\sql.g4 by ANTLR 4.8
 from antlr4 import *
 from io import StringIO
 from typing.io import TextIO

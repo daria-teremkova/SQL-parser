@@ -11,7 +11,7 @@ from antlr_ast.ast import (
 from antlr_ast.inputstream import CaseTransformInputStream
 from antlr_ast.marshalling import AstEncoder, get_decoder
 
-from ast_nodes import QueriesList, Query, CreateTable, ColumnDefinition, SimpleSelect
+from ast_nodes import * #QueriesList, Query, CreateTable, ColumnDefinition, SimpleSelect, Insert,
 from sql_parser.sqlParser import sqlParser
 from sql_parser.sqlLexer import sqlLexer
 
@@ -68,6 +68,23 @@ class SimpSelectNode(AliasNode):
     def build_ast(self):
         return SimpleSelect(self.columns, self.table_name, self.where, self.oper)
 
+class DeleteNode(AliasNode):
+    _fields_spec = ['table_name=delete_stmt.qualified_table_name']
+
+    _rules = ['delete_statement']
+
+    def build_ast(self):
+        return Delete(self.table_name)
+
+class InsertNode(AliasNode):
+    _fields_spec = ['table_name=insert_stmt.table_name', 'values=insert_stmt.expr1', 'column_name=insert_stmt.column_name']
+
+    _rules = ['insert_statement']
+
+    def build_ast(self):
+        return Insert(self.table_name, self.values, self.column_name)
+
+
 
 # TODO: add _rules property and implement build_ast method
 # class FactoredStatementNode(AliasNode):
@@ -92,7 +109,7 @@ def parse(text, start="root", **kwargs):
         Grammar, text, start, **kwargs
     )
 
-    Transformer.bind_alias_nodes([RootQueryNode, QueryNode, CreateTableNode, ColumnDefinitionNode, SimpSelectNode])
+    Transformer.bind_alias_nodes([RootQueryNode, QueryNode, CreateTableNode, ColumnDefinitionNode, SimpSelectNode, InsertNode, DeleteNode])
     simple_tree = process_tree(antlr_tree, transformer_cls=Transformer)
 
     return simple_tree.build_ast()
