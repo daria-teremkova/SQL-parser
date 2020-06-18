@@ -1,6 +1,4 @@
 INSERT INTO employee (id, firstName, lastName)
-VALUES (4, 'Johnny', 'Cash');
+VALUES (3, 'Johnny', 'Cash');
 
-SELECT firstName, lastName FROM employee WHERE id=2;
-
-DELETE FROM Laptop;
+DELETE FROM employee;

@@ -1,4 +1,4 @@
-from ast_nodes import * # QueriesList, Query, CreateTable, ColumnDefinition, SimpleSelect
+from ast_nodes import *
 import json
 
 
@@ -63,3 +63,12 @@ class Queries:
             json.dump(new_tab, f)
         for table in tables.items():
             print(table)
+
+    def delete_all_query(query: Delete):
+        table = query._table_name
+        with open('./sw_templates.json', 'r') as f:
+            tables = json.loads(f.read())
+            tables[table] = []
+        with open('./sw_templates.json', 'w') as f:
+            json.dump(tables, f)
+            print(tables)

@@ -36,12 +36,13 @@ def main():
     # print(t)
     #select_query()
     ast_tree = parse(read_file('./sql_stmt.sql'))
-    # print_tree(ast_tree)
+    print_tree(ast_tree)
     # print(ast_tree._queries[0]._statements[1])
     # read_json_file()
     print('___________________________________________________________________________________')
     # Queries.select_query(ast_tree._queries[0]._statements[0])
     Queries.insert_query(ast_tree._queries[0]._statements[0])
+    # Queries.delete_all_query(ast_tree._queries[0]._statements[0])
 
 
 if __name__ == '__main__':

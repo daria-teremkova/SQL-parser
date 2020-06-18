@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e59de22b-1a62-4795-9b60-423c86c5836d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ast_nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ast_nodes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json_file_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_file_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.g4" beforeDir="false" afterPath="$PROJECT_DIR$/sql.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_parser/sql.interp" beforeDir="false" afterPath="$PROJECT_DIR$/sql_parser/sql.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_parser/sqlLexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_parser/sqlLexer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_parser/sqlListener.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_parser/sqlListener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_parser/sqlParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_parser/sqlParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_parser/sqlVisitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_parser/sqlVisitor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_stmt.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_stmt.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqlast.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqlast.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sw_templates.json" beforeDir="false" afterPath="$PROJECT_DIR$/sw_templates.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="179" column="16" lean-forward="true" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+            <state relative-caret-position="-527">
+              <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -37,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="137">
+              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -46,23 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json_file_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="443">
+              <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
               <folding>
-                <element signature="e#0#85#0" expanded="true" />
+                <element signature="e#0#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sw_templates.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="238" selection-start-column="238" selection-end-column="238" />
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -70,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_stmt.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" selection-start-line="3" selection-end-line="3" selection-end-column="52" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -80,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/sqlast.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -103,13 +94,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/printer.py" />
-        <option value="$PROJECT_DIR$/sw_templates.json" />
         <option value="$PROJECT_DIR$/ast_nodes.py" />
         <option value="$PROJECT_DIR$/sql.g4" />
         <option value="$PROJECT_DIR$/sqlast.py" />
+        <option value="$PROJECT_DIR$/sw_templates.json" />
+        <option value="$PROJECT_DIR$/json_file_utils.py" />
         <option value="$PROJECT_DIR$/sql_stmt.sql" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/json_file_utils.py" />
       </list>
     </option>
   </component>
@@ -201,7 +192,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24333926" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44227353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41563055" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -260,23 +251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqlast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_stmt.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -291,24 +265,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sw_templates.json">
+    <entry file="file://$PROJECT_DIR$/sql_stmt.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="238" selection-start-column="238" selection-end-column="238" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="179" column="16" lean-forward="true" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+        <state relative-caret-position="-527">
+          <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="137">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -317,11 +301,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json_file_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="443">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
           <folding>
-            <element signature="e#0#85#0" expanded="true" />
+            <element signature="e#0#89#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw_templates.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
